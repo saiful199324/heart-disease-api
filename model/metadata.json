@@ -1,0 +1,21 @@
+{
+  "model_type": "LogisticRegression (StandardScaler pipeline)",
+  "features": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "test_accuracy": 0.8098,
+  "train_rows": 820,
+  "test_rows": 205
+}
