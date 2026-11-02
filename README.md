@@ -4,8 +4,8 @@ A FastAPI service that predicts whether heart disease is present from 13 clinica
 
 | | |
 |---|---|
-| **Live API** | https://heart-disease-api.onrender.com *(replace with your Render URL)* |
-| **Swagger UI** | https://heart-disease-api.onrender.com/docs |
+| **Live API** | https://heart-disease-api-ua80.onrender.com |
+| **Swagger UI** | https://heart-disease-api-ua80.onrender.com/docs |
 
 > The free Render plan puts the service to sleep when it's idle, so the first request can take up to about 50 seconds.
 
@@ -98,4 +98,4 @@ Response:
 2. On Render, choose **New → Web Service** and connect the repository.
 3. Set **Language** to **Docker**, leave **Root Directory** empty (the Dockerfile is at the repo root), and pick the **Free** instance type.
 4. Click **Deploy**. Render sets `$PORT`, and the Dockerfile's `CMD` already uses it.
-5. Test the live service with the `curl` commands above, replacing `http://localhost:8000` with the Render URL.
+5. Test the live service with the `curl` commands above, replacing `http://localhost:8000` with https://heart-disease-api-ua80.onrender.com.
